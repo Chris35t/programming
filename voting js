@@ -1,0 +1,27 @@
+var votfred = 0;
+var vottom = 0;
+var total = 0;
+
+function cast() {
+    while (total < 10) {
+        var vote = prompt("Enter 0 for Fred and 1 for Tom:");
+
+        if (vote === "0") {
+            votfred++;
+            console.log("You voted for Fred!");
+        } else if (vote === "1") {
+            vottom++;
+            console.log("You voted for Tom!");
+        } else {
+            console.log("Your vote doesn't count because you entered an invalid option.");
+        }
+
+        total++;
+    }
+
+    console.log("Voting has ended.");
+    console.log("Fred: " + votfred + " votes");
+    console.log("Tom: " + vottom + " votes");
+}
+
+cast();
