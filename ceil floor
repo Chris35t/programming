@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    float v;
+    scanf("%f",&v);
+    printf("%d\n",(int)v);
+    printf("%.0f\n",ceil(v));
+    printf("%.0f\n",floor(v));
+
+      
+    return 0;
+}
