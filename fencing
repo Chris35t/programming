@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int a,b;
+    scanf("%d",&a);
+    scanf("%d",&b);
+    printf("The required length is %d m\n",2*(a+b));
+    printf("The required area of carpet is %d sqm\n",a*b);
+    return 0;
+}
