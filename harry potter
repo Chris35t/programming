@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int num;
+    scanf("%d", &num);
+
+    num = abs(num);
+
+    int a = num / 1000;
+    int b = num % 10;
+
+    printf("%d", a + b);
+
+    return 0;
+}
