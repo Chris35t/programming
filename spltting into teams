@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+   int a,b;
+   scanf("%d",&a);
+   scanf("%d",&b);
+   int y,x;
+   y = a/b;
+   x = a%b;
+   printf("The number of friends in each team is %d and left out is %d",y,x);
+     
+    return 0;
+}
