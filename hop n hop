@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    
+    int x,y;
+    scanf("%d",&x);
+    scanf("%d",&y);
+    int dx,dy;
+    dx = x - 3;
+    dy = y - 4;
+    int distance;
+    distance = sqrt(dx*dx + dy*dy);
+    printf("%d",distance);
+       
+    return 0;
+}
