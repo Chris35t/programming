@@ -1,0 +1,13 @@
+tmux to activate
+
+alt + h
+alt + j
+alt + k 
+
+#change terminals
+
+alt + s  # split horizontally
+alt + v  # split vertically
+
+alt + x # close
+
